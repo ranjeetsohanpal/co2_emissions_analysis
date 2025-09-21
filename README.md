@@ -19,10 +19,7 @@ This project presents an interactive Power BI dashboard that provides insights i
 
 ## Data Sources
 
-- Raw emissions data (CO₂ per country over time) — source(s) you used (e.g., *Our World in Data*, World Bank, etc.).  
-- Socioeconomic metrics: GDP, population, possibly others.  
-- Country-to-continent mapping from `countries_by_continent.csv`.  
-- Any scraped sources via `web_scrap.py` (list specific URLs if possible).  
+Raw emissions data — This data is [Our World In Data](https://ourworldindata.org/co2-and-greenhouse-gas-emissions#article-licence) 
 
 ---
 
