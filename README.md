@@ -60,7 +60,7 @@ In addition to the report, there is the python script for webscraping countries 
 ---
 
 ## 📖 Learnings
-This project showcases how **data visualization and storytelling** can highlight pressing environmental challenges, enabling policymakers, researchers, and the public to better understand emission drivers and patterns.
+This project showcases how **data visualization and storytelling** can highlight pressing environmental challenges, enabling policymakers, researchers, and the public to better understand emission drivers and patterns. It also shows that how the majority of the greenhouse emissions are contributed by the **5 countries**. One surprising finding is that **Qatar** has very high per capita emissions.
 
 ---
 
