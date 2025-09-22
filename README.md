@@ -3,6 +3,7 @@
 This Power BI project explores **global greenhouse gas (GHG) emissions** and their relationship with **population, GDP, and per capita emissions** across countries and continents.  
 The report provides a **comprehensive overview of emission trends (1850–2022)** and allows interactive exploration of key insights through slicers and visuals.
 In addition to the report, there is the python script for webscraping countries and continent for the purpose since the raw data did not have the continent column.
+
 ---
 
 ## 📊 Dashboard Overview
@@ -25,18 +26,10 @@ In addition to the report, there is the python script for webscraping countries 
 
 ## 🔍 Key Insights
 - Emissions have grown steadily since the 1980s, with sharp increases in Asia.  
-- **Asia** dominates global emissions, led by China and India, while **North America** has the highest per capita emissions.  
-- Countries like **Qatar** consistently appear as top per capita emitters, while smaller island nations often have the lowest.  
+- **Asia** dominates global emissions driven by rapid industrialization in India and China. 
+- Countries like **Qatar** consistently appear as top per capita emitters particularly due to extraction of crude oil, while smaller island nations like Marshall Islands often have the lowest.  
+- Countries such as China, US, India, Russia and Brazil contributed to nearly 60% of the total emissions in 2022 highlighting unequal distribution of responsibility.
 - The scatter plot shows that **higher GDP per capita generally correlates with higher emissions**, but some wealthy nations (e.g., in Europe) are starting to decouple economic growth from emissions.  
-
----
-
-## 🛠️ Features Demonstrated
-- Data cleaning and transformation (Power Query).  
-- DAX measures for KPIs (Top N, per capita metrics, ranking, dynamic filtering).  
-- Interactive storytelling with slicers and tooltips.  
-- Use of advanced visuals: trend lines, conditional formatting, scatter plots.  
-- Comparative analysis: **Total vs. Per Capita vs. GDP-adjusted emissions**.  
 
 ---
 
@@ -60,7 +53,32 @@ In addition to the report, there is the python script for webscraping countries 
 ---
 
 ## 📖 Learnings
-This project showcases how **data visualization and storytelling** can highlight pressing environmental challenges, enabling policymakers, researchers, and the public to better understand emission drivers and patterns. It also shows that how the majority of the greenhouse emissions are contributed by the **5 countries**. One surprising finding is that **Qatar** has very high per capita emissions.
+This project showcases how **data visualization and storytelling** can highlight pressing environmental challenges, enabling policymakers, researchers, and the public to better understand emission drivers and patterns. It also shows that how the majority of the greenhouse emissions are contributed by the **5 countries** and informs the public where the change is most needed.
+
+---
+## 🛠️ Skills & Features Demonstrated  
+
+- **Data Cleaning & Transformation**:  
+  - Power Query for preprocessing and shaping data.  
+  - Python (web scraping) to enrich dataset with continent information.  
+
+- **DAX Measures**:  
+  - Dynamic **Top N** emitters by year.  
+  - Calculations for **highest/lowest per capita emitters**.  
+  - Year-wise aggregations for **KPIs**.  
+
+- **Data Storytelling**:  
+  - Framing insights with **interactive slicers** (Year, Country, Continent).  
+  - Highlighting trends and outliers to support analysis.  
+
+- **Visualization Techniques**:  
+  - Trend analysis with line charts.  
+  - Comparative breakdowns with bar and donut charts.  
+  - Scatter/bubble plots with **conditional formatting** to reflect per capita emissions.  
+
+- **Domain Knowledge**:  
+  - Application of data analysis techniques to **environmental and sustainability research**.  
+  - Linking emissions data with **population and GDP** to derive deeper insights.  
 
 ---
 
