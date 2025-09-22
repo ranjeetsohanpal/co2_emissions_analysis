@@ -2,7 +2,7 @@
 
 This Power BI project explores **global greenhouse gas (GHG) emissions** and their relationship with **population, GDP, and per capita emissions** across countries and continents.  
 The report provides a **comprehensive overview of emission trends (1850–2022)** and allows interactive exploration of key insights through slicers and visuals.
-
+In addition to the report, there is the python script for webscraping countries and continent for the purpose since the raw data did not have the continent column.
 ---
 
 ## 📊 Dashboard Overview
@@ -42,7 +42,11 @@ The report provides a **comprehensive overview of emission trends (1850–2022)*
 
 ## 📷 Screenshots
 
+![KPIs and trends](images/KPIs.png)
 
+![Scatterplot comparing GDP per capita with Emissions alongwith Per capita Emissions for a chosen year](images/scatterplot.png)
+
+![Map showing the total Greenhouse Emissions for Continents and Countries for chosen interval of year](images/map.png)
 
 
 ---
